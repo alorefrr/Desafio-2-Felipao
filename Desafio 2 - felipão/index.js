@@ -19,7 +19,7 @@ function calcularRank(vitorias, derrotas) {
     return { saldoVitorias, nivel };
 }
 
-const vitorias = 205;
-const derrotas = 204;
+const vitorias = 180;
+const derrotas = 1;
 const resultado = calcularRank(vitorias, derrotas);
-console.log('O herói tem de saldo de ' + resultado.saldoVitorias + ' está no nivel de ' + resultado.nivel);
+console.log('O herói tem saldo de ' + resultado.saldoVitorias + ' vitórias e está no rank ' + resultado.nivel);
